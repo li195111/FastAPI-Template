@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get('/')
 def index(req:Request):
-    return {}
+    return {"msg":"Hello World!"}
 
 if __name__ == "__main__":
     import uvicorn
