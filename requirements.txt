@@ -1,0 +1,13 @@
+# API
+fastapi
+uvicorn
+
+requests[socks]
+PySocks
+stem
+
+# Memory Storage
+Redis
+
+# Async Task
+celery[redis]
