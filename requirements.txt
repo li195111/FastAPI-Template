@@ -2,6 +2,9 @@
 fastapi
 uvicorn
 
+# Form Data
+python-multipart
+
 requests[socks]
 PySocks
 stem
