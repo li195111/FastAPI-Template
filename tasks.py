@@ -9,3 +9,7 @@ task = Celery('tasks',
 def function():
     ... 
 '''
+@task.on_after_configure.connect
+def setup_periodic_tasks(sender, **kwargs):
+    # sender.add_periodic_task(10.0, clean_key_pairs.s(), name='clean every 10s')
+    pass
